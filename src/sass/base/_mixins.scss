@@ -1,0 +1,7 @@
+@mixin button-hover{
+    transition: 0.5s all;
+	&:hover{
+		background-color: none;
+        background-image: linear-gradient(to top, #920003, $main-color)
+    }
+}
