@@ -16,7 +16,7 @@
         line-height: normal;
         letter-spacing: normal;
         text-align: center;
-        color: #ffffff;
+        color: $white-color;
         span
         {
             display: block;
@@ -29,10 +29,10 @@
         display: block;
         font-size: 18px;
         font-weight: 700;
-        color: #ffffff;
+        color: $white-color;
         transition: 0.7s all;
         &:hover{
-            color: #000000;
+            color: $black-color;
             text-decoration: none;
         }
     }
