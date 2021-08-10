@@ -5,4 +5,10 @@
     text-align: center;
     text-transform: uppercase;
     color: #0d0d0d;
+    &_free{
+        text-align: left;
+        line-height: 1.2;
+        font-size: 36px;
+        color: #ffffff;
+    }
 }
