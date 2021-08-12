@@ -4,6 +4,16 @@
             width: 240px;
         }
     }
+    .carousel{
+        &__inner{
+            width: 700px;
+            div{
+                img{
+                    width: 700px;
+                }
+            }
+        }
+    }
 }
 @media screen and ( max-width: 991px ){
     .main{
@@ -62,6 +72,49 @@
     .button{
         &_form{
             height: 53px;
+        }
+    }
+    .carousel{
+        &__inner{
+            width: 600px;
+            div{
+                img{
+                    /* height: 85%; */
+                    display:block;
+                    margin: 0 auto;
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .slick{
+        &-dots{
+            display: flex;
+            flex-direction : row;
+            width:100px;
+            justify-content: space-between;
+            align-items:center;
+            padding-left: 0px;
+            margin: 0 auto;
+            margin-top: 20px;
+            li{
+                list-style-type: none;
+                button{
+                    width: 15px;
+                    height: 15px;
+                    border:none;
+                    border-radius: 100%;
+                    font-size: 0;
+                    color: rgba(0, 0, 0, 0);
+                    outline: none;
+                }
+            }
+        }
+        &-active{
+            button{
+                transition: 0.8s all;
+                background-color: $main-color;
+            }
         }
     }
 }
@@ -140,6 +193,24 @@
     }
     .feed-form{
         margin: 36px auto 0 auto;
+    }
+    .carousel{
+        margin-bottom: 20px;
+        &__inner{
+            width: 460px;
+            div{
+                img{
+                    display:block;
+                    margin: 0 auto;
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .slick{
+        &-dots{
+            margin-top: 25px;
+        }
     }
 }
 @media screen and ( max-width:575px ){
@@ -220,6 +291,24 @@
         width: 270px;
         input{
             height: 47px;
+        }
+    }
+    .carousel{
+        margin-bottom: 20px;
+        &__inner{
+            width: 260px;
+            div{
+                img{
+                    display:block;
+                    margin: 0 auto;
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .slick{
+        &-dots{
+            margin-top: 30px;
         }
     }
 }
