@@ -24,5 +24,12 @@
         height: 55px;
         font-size: 16px;
     }
+    &_buy{
+        padding: 0;
+        width: 131px;
+        height: 40px;
+
+        font-size: 14px;
+   }
    @include button-hover;
 }
