@@ -4,11 +4,11 @@
     line-height: 1;
     text-align: center;
     text-transform: uppercase;
-    color: #0d0d0d;
+    color: $black-color;
     &_free{
         text-align: left;
         line-height: 1.2;
         font-size: 36px;
-        color: #ffffff;
+        color: $white-color;
     }
 }
