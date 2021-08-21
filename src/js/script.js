@@ -61,5 +61,33 @@ $(document).ready(function(){
             $('.overlay,#order').fadeIn();
         });
     });
-
+    function validateForms(form){
+        $(form).validate({
+            rules:{
+                name: {
+                    required: true,
+                    minlength: 2
+                },
+                phone: "required",
+                email: {
+                    required: true,
+                    email: true,
+                }
+            },
+            messages: {
+                name: {
+                    required: "Пожалуйста, введите своё имя",
+                    minlength: jQuery.validator.format("Минимум {0} символа")
+                },
+                phone: "Пожалуйста, введите свой номер телефона",
+                email: {
+                    required: "Пожалуйста, введите свой почтовый адрес",
+                    email: "Ваш почтовый адрес введён некорректно, нужный формат: name@domain.com"
+                }
+            }
+        });
+    };
+    validateForms('#main-form');
+    validateForms('#consultation form');
+    validateForms('#order form');
 });

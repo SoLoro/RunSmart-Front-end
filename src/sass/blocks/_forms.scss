@@ -20,6 +20,19 @@
           margin-bottom: 20px;
       }
     }
+    .error{
+        border: 2px solid $main-color;
+    }
+    input.error{
+        margin-bottom: 10px;
+    }
+    label.error{
+        border:none;
+        text-align: center;
+        margin-bottom: 15px;
+        font-size: 14px;
+        color: $main-color;
+    }
     &_mt25{
         margin-top: 25px;
     }
