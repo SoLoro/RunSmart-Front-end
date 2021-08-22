@@ -389,6 +389,9 @@
         .button_form{
             font-size: 13px;
         }
+        &_mini{
+            min-height: 140px;
+        }
     }
 }
 @media screen and ( max-width:575px ){
@@ -589,6 +592,9 @@
         }
         .button_form{
             font-size: 13px;
+        }
+        &_mini{
+            min-height: 135px;
         }
     }
 }
