@@ -14,6 +14,12 @@
             }
         }
     }
+    .pageup{
+        bottom: 35px;
+        right: 20px;
+        width: 35px;
+        height: 35px;
+    }
 
 }
 @media screen and ( max-width: 991px ){
@@ -169,6 +175,12 @@
         &__telephone{
             margin-bottom: 25px;
         }
+    }
+    .pageup{
+        bottom: 30px;
+        right: 15px;
+        width: 33px;
+        height: 33px;
     }
 }
 @media screen and ( max-width:767px){
@@ -393,6 +405,12 @@
             min-height: 140px;
         }
     }
+    .pageup{
+        bottom: 25px;
+        right: 12px;
+        width: 32px;
+        height: 32px;
+    }
 }
 @media screen and ( max-width:575px ){
     .main{
@@ -596,5 +614,11 @@
         &_mini{
             min-height: 135px;
         }
+    }
+    .pageup{
+        bottom: 22px;
+        right: 25px;
+        width: 27px;
+        height: 27px;
     }
 }
