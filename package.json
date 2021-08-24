@@ -23,6 +23,7 @@
     "gulp-autoprefixer": "^8.0.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-cli": "^2.3.0",
+    "gulp-imagemin": "^8.0.0",
     "gulp-rename": "^2.0.0",
     "gulp-sass": "^5.0.0",
     "sass": "^1.37.5"
@@ -31,5 +32,10 @@
     "defaults",
     "not IE 11",
     "maintained node versions"
-  ]
+  ],
+  "dependencies": {
+    "directory-import": "^2.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "imagemin-mozjpeg": "^9.0.0"
+  }
 }
