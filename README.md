@@ -8,7 +8,7 @@ ____
 ## Languages
 *HTML, CSS, SCSS, JS, PHP*
 ____
-## Libraries
+## Libraries & Frameworks
 *JQuery(Slick, Validate, MaskedInput), Animate, Wow, PhpMailer, Bootstrap*
 ____
 ## Forms on the website
